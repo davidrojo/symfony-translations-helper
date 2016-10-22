@@ -19,7 +19,7 @@ public function registerBundles()
     {
         $bundles = [
             ...
-            new DavidRojo\SfTranslationsHelperBundle(),
+            new DavidRojo\SfTranslationHelper\SfTranslationsBundle(),
             ...
         ]
     }
