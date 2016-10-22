@@ -1,12 +1,22 @@
 # symfony-translations-helper
+
 Simple commands to manage translations in Symfony.
 
 This bundle allows you to write missing translations from a yml file to another requesting the missing translations and storing them in the output file.
 
 For each non found translation it will request the translation showing the field id and the original text to translate, making it very easy to update your translation files whe you have added fields to them
 
+** It currently only suports yml translations files **
 
-## Insalation
+## Contents
+
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Example](#Example)
+- [Contributions](#Contributions)
+- [Donations](#Donations)
+
+## Installation
 
 Just require the bundle with composer:
 
