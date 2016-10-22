@@ -1,0 +1,24 @@
+{
+    "name": "davidrojo/sf-translations-helper",
+    "type": "library",
+    "description": "Tranlsations files helper for symfony",
+    "keywords": ["symfony","translations"],
+    "homepage": "https://github.com/davidrojo/symfony-translations-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Rojo",
+            "email": "david.rojo.gonzalez@gmail.com",
+            "homepage": "http://www.davidrojo.es",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "symfony/console": "~2.3|~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DavidRojo\\SfTranslationHelper\\": "src/"
+        }
+    }
+}
