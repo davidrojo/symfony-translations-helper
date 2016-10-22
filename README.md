@@ -29,14 +29,22 @@ public function registerBundles()
 
 ## Usage
 
-Execute the command `php bin/console translations:helper from_language to_language BundleName|File allowEmpty`
+Execute the command 
 
-Parameters:
+    php bin/console translations:helper [from_language] [to_language] [BundleName|File] [allowEmpty]
 
-- from_language: The origin language
-- to_language: The destination language
-- BundleName|File: The bundle we want to translate files if it has a Resources/translations/messages.[LANG].yml, or it can be a realtive path to a yml file wit filename ending in ".[LANG].yml"
-- allowEmpty (true/false): Default true, if we dont't add a translation when promped if this parameter is true, the entry will be created empty, else it will not be created.
+Arguments:
+
+    from              Origin language file (example: en)
+    to                Destination language file (example: fr)
+    file              Bundle name or the full path from current folder to the input file
+    addEmpty          Optional (true/false), Add empty values to the destination 
+                      file if no translation is added (default: false)
+
+Options:
+
+    --no-backup       If not present a .backup file will be generated if output file exists
+
 
 ## Example
 
