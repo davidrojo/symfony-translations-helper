@@ -20,7 +20,7 @@ For each non found translation it will request the translation showing the field
 
 Just require the bundle with composer:
 
-`composer.phar require davidrojo/symfony-translations-helper`
+`composer.phar require davidrojo/sf-translations-helper`
 
 And then add it to app/AppKernel.php:
 
